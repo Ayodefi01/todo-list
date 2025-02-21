@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="image-container">
+          <img src="/images/bg-desktop-dark.jpg" alt="" width="100%" height="25%" />
+        </div>
+      </div>
+
+      <div class="floating">
+        <div class="flex justify-between">
+          <h2 class="abo">T O D O</h2>
+          <img src="/images/icon-sun.svg" alt="" width="20px" height="20px" />
+        </div>
+        <div class="listcont">
+          <div class="list">
+            <!-- <label for="todo"></label> -->
+            <input type="text" class="input1" id="todo-input" />
+          </div>
+
+          <div class="list">
+            <ul id="list"></ul>
+            <div class="tab">
+              <button onclick="showAll()">All</button>
+              <button onclick="showActive()">Active</button>
+              <button onclick="showCompleted()">Completed</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <footer><p>drag and drop to reorder list</p></footer> -->
+
+      <!-- <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a></p>
+        <p>Coded by <a href="#">Ayomide</a></p>
+      </div> -->
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
